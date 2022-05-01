@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+
+.nav{
+  justify-content: left;
+  background-color: rgb(13, 122, 129);
+  text-align: center;
+  font-size:small;
+  height: 100%;
+}

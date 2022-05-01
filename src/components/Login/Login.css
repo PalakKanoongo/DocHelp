@@ -1,0 +1,83 @@
+
+.main-login{
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+    background: linear-gradient(to right, rgb(223, 221, 221) 50%, #4dd6b6 50%);
+}
+    
+.login-contain{
+
+        height: 68vh;
+        width: 70%;
+        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7),rgba(236,236,236,0.4));
+        border-radius: 1rem;
+        margin: 5rem auto;
+        box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+        
+.left-side,.right-side{
+    margin: 2rem 2rem;
+    box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+    height: 80%;
+    width:100%;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+ }
+
+ input{
+    display: block;
+    border: none;
+    height: 2rem;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    padding: 0.2rem 1rem;
+    font-size: small;
+    color:gray;
+    transition: all 0.1s ease-in-out;
+ }
+
+ label{
+    display: block;
+    text-align: left;
+    width:78%;    
+    margin: auto;
+    font-size: small;
+    color:gray;
+    margin-bottom: 0.5rem;
+
+}
+
+.right-side{
+    margin-left:1rem;
+    color:black;
+    float: left;
+    margin-bottom: 2.5rem;
+}
+.welcomeNote h3{
+            margin-left:1rem;
+            color:black;
+            float: middle;
+            margin-bottom: 2.5rem;
+    }
+
+ .welcomeImg{
+        height: 80%;
+        width: 70%;
+        margin: 1rem auto;
+ }
+
+#wel-img-id{
+            width: 100%;
+            object-fit: cover;
+        }
+               

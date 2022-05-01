@@ -1,0 +1,30 @@
+.imageup {
+    height: 68vh;
+     width: 70%;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 34px ;
+    background-color: aquamarine;
+    border-radius: 1rem;
+    margin: 5rem auto;text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+p{
+    margin: 34px;
+    padding: 34px;
+}
+
+.btnup{
+    height: 9vh;
+    width: 20%;
+    border-radius: 17px;
+    align-self: center;
+}
+
+.btnup:hover{
+    cursor:pointer;
+}
